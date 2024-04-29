@@ -127,15 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cal.h" />
     <ClInclude Include="count.h" />
+    <ClInclude Include="helper.h" />
     <ClInclude Include="struct.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="countArr.cpp" />
-    <ClCompile Include="countArrMain.cpp">
+    <ClCompile Include="ex_count.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="main.c" />
+    <ClCompile Include="helper.c" />
+    <ClCompile Include="ex_sturct.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ex_extern.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

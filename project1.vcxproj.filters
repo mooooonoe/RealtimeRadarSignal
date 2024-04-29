@@ -21,16 +21,28 @@
     <ClInclude Include="struct.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="cal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="countArr.cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="ex_sturct.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="countArrMain.cpp">
+    <ClCompile Include="ex_count.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_extern.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.c">
+      <Filter>헤더 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
