@@ -94,8 +94,8 @@ int main() {
 
     // FFT Range Profile
     float radarCubeData_demo[NChirp][NChan][NSample] = { 0 };
-    double win[NChirp * NChan * NSample];
-    rectwin(win, NChirp * NChan * NSample);
+    double win[NSample];
+    rectwin(win, NSample);
 
     for (int chirpIdx = 0; chirpIdx < NChirp; chirpIdx++) {
         for (int chIdx = 0; chIdx < NChan; chIdx++) {
